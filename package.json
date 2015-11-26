@@ -1,0 +1,21 @@
+{
+  "name": "partyhard-front",
+  "version": "1.0.0",
+  "description": "Web version of Party Hard app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkwiatek/partyhard-front.git"
+  },
+  "author": "wojtek.kwiatek@gmail.com",
+  "license": "SEE LICENCE IN LICENCE",
+  "bugs": {
+    "url": "https://github.com/wkwiatek/partyhard-front/issues"
+  },
+  "homepage": "https://github.com/wkwiatek/partyhard-front#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
