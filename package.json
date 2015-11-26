@@ -4,7 +4,8 @@
   "description": "Web version of Party Hard app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --inline --hot --quiet",
+    "build": "NODE_ENV=production webpack --progress --hide-modules"
   },
   "repository": {
     "type": "git",
