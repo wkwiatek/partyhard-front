@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --quiet",
-    "build": "NODE_ENV=production webpack --progress --hide-modules",
-    "postinstall": "./node_modules/.bin/babel ./node_modules/vuex/src --out-dir ./node_modules/vuex/lib --presets es2015 --plugins add-module-exports"
+    "build": "NODE_ENV=production webpack --progress --hide-modules"
   },
   "repository": {
     "type": "git",
@@ -22,17 +21,16 @@
     "vue": "^1.0.8",
     "vue-resource": "^0.1.17",
     "vue-router": "^0.7.5",
-    "vuex": "git+https://github.com/vuejs/vuex.git"
+    "vuex": "^0.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.2.0",
     "babel-core": "^6.1.21",
     "babel-loader": "^6.1.0",
-    "babel-plugin-add-module-exports": "^0.1.1",
-    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-plugin-transform-runtime": "^6.3.13",
     "babel-preset-es2015": "^6.1.18",
-    "babel-runtime": "^6.1.18",
-    "css-loader": "^0.21.0",
+    "babel-runtime": "^6.3.13",
+    "css-loader": "^0.23.0",
     "style-loader": "^0.13.0",
     "stylus-loader": "^1.4.0",
     "vue-hot-reload-api": "^1.2.0",
