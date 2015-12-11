@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/wkwiatek/partyhard-front#readme",
   "dependencies": {
-    "vue": "^1.0.8",
+    "babel-cli": "^6.3.17",
+    "babel-core": "^6.3.17",
+    "vue": "^1.0.11",
     "vue-resource": "^0.1.17",
     "vue-router": "^0.7.5",
-    "vuex": "^0.1.0"
+    "vuex": "^0.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.2.0",

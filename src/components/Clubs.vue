@@ -11,14 +11,14 @@
 </template>
 
 <script>
-import vuex from '../vuex';
-const { getAllClubs } = vuex.actions;
+import store from '../store';
+const { getAllClubs } = store.actions;
 
 export default {
   name: 'Clubs',
   computed: {
     clubs() {
-      return vuex.state.clubs;
+      return store.state.clubs;
     }
   },
   created() {
